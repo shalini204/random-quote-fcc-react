@@ -1,4 +1,7 @@
 .App {
+  width: 100%;
+  min-height: 100vh;  
+  background-color: darkgrey;
   text-align: center;
 }
 
@@ -36,3 +39,42 @@
     transform: rotate(360deg);
   }
 }
+
+
+.quoteBox {
+  background-color: black;
+  width: 40em;
+  height: 15em;
+  border: 2px solid blanchedalmond;
+  /* display: inline-block; */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  
+
+}
+
+.text{
+  color: beige;
+  font-size: 1em;
+  font-style: italic;
+  font-family: 'Courier New', Courier, monospace; 
+  width: 100%;
+  
+  display: block;
+  
+}
+
+.author{
+  color: beige;
+  font-size: 1em;
+  font-style: italic;
+  font-family: 'Courier New', Courier, monospace; 
+  width: 100%;
+  
+  display: block;
+  
+
+}
+
